@@ -8,13 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Jun 2021 21:17:55 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduction To Array</title>
+      <title>Introduction To 1-D Array</title>
       <link>https://kerinpithawala.github.io/Blog/posts/firstpost/</link>
       <pubDate>Thu, 17 Jun 2021 21:17:55 +0530</pubDate>
       
       <guid>https://kerinpithawala.github.io/Blog/posts/firstpost/</guid>
       
-        <description>Hello World!</description>
+        <description>One Dimensional Array Simplified Array: A data structure which stores homogenous data types in continuous memory allocation is known as an Array. It stored several related items using a single name. Different elements can be accessed using the index.
+Consider a cupboard in your local library. It has different sections for different genres of book. Each section can accommodate a specific number of books.
+Now consider the section of Mathematics wherein one would only find books on mathematics.</description>
       
     </item>
     
