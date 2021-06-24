@@ -6,7 +6,20 @@
     <description>Recent content on Kerin Pithawala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 21:59:59 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 20:13:18 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to 2-D Array</title>
+      <link>https://kerinpithawala.github.io/Blog/posts/secondp/</link>
+      <pubDate>Thu, 24 Jun 2021 20:13:18 +0530</pubDate>
+      
+      <guid>https://kerinpithawala.github.io/Blog/posts/secondp/</guid>
+      
+        <description>Overview of two dimensional array A two-dimensional array is an array of array. For example, consider a sample time table.
+Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.
+The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this blog on 1D Array.</description>
+      
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://kerinpithawala.github.io/Blog/contact/</link>

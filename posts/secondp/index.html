@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en" data-theme=""><head>
-    <title> Kerin Pithawala | Kerin Pithawala&#39;s Blog </title>
+    <title> Kerin Pithawala | Introduction to 2-D Array </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.83.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -33,10 +33,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="/Blog/">
+    <link rel="canonical" href="/Blog/posts/secondp/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/Blog/index.xml" title="Kerin Pithawala's Blog" />
     
     
     
@@ -55,8 +54,10 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Kerin Pithawala&#39;s Blog"/>
-<meta name="twitter:description" content="Blog for Tech and Research"/>
+<meta name="twitter:title" content="Introduction to 2-D Array"/>
+<meta name="twitter:description" content="Overview of two dimensional array A two-dimensional array is an array of array. For example, consider a sample time table.
+Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.
+The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this blog on 1D Array."/>
 
 
     
@@ -108,7 +109,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/Blog/"
                         
                    title="">Home</a></li>
@@ -145,79 +146,60 @@
     <div class="autopagerize_page_element">
         <div class="content">
     <div class="post  animated fadeInDown ">
-        <div class="post-title post-content">
-            <h1>Kerin Pithawala&#39;s Blog</h1>
+        <div class="post-content">
             
+            <div class="post-title">
+                <h3>Introduction to 2-D Array</h3>
+                
+            </div>
+
+            <h1 id="overview-of-two-dimensional-array">Overview of two dimensional array</h1>
+<p>A two-dimensional array is an array of array. For example, consider a sample time table.</p>
+<p>Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.</p>
+<p>The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this <a href="https://kerinpithawala.github.io/Blog/posts/firstpost/">blog on 1D Array</a>.</p>
+<p>A major application of 2-dimensional array is a representation of matrices. Let us consider an array arr with 2 rows and 3 columns.</p>
+<p>8    5    4</p>
+<p>2    8    3</p>
+<p>Usually, a 2-D array is used for storing information that is visualized as grid and table form. However, in memory, it is not stored as a table like visualization. It stores by continuous memory either of the following order:</p>
+<ol>
+<li>Row major order-</li>
+</ol>
+<p>Here, elements of first rows are list first, followed by elements of the second row and so on.</p>
+<p>8</p>
+<p>5</p>
+<p>4</p>
+<p>2</p>
+<p>8</p>
+<p>3</p>
+<p>arr(0,0)                arr(0,1)                arr(0,2)                arr(1,0)                arr(1,1)                  arr(1,2)</p>
+<ol start="2">
+<li>Column major order-</li>
+</ol>
+<p>Here, elements of first rows are list first, followed by elements of second row and so on.</p>
+<p>8</p>
+<p>2</p>
+<p>5</p>
+<p>8</p>
+<p>4</p>
+<p>3</p>
+<p>arr(0,0)                 arr(1,0)                 arr(1,1)                 arr(1,1)              arr(0,2)                arr(1,2)</p>
+<p>The computer stores the address of the first element which is known as the base address i.e. address of arr(0,0). The rest of the addresses are calculated by the base address.</p>
+<p>Let’s assume that an array arr has m number of rows and n number of columns. The size of an individual element is w. Now we want to find the address of element at i row and j column.</p>
+<p>If array is stored as row major,</p>
+<p>arr[i][j]=Base address +w[n(i-1)+(j-1)]</p>
+<p>If array is stored as column major,</p>
+<p>arr[i][j]=Base address +w[(i-1)+m(j-1)]</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
         </div>
 
         
     </div>
 
-    
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/Blog/posts/secondp/">Introduction to 2-D Array</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>Overview of two dimensional array A two-dimensional array is an array of array. For example, consider a sample time table.
-Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.
-The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this blog on 1D Array.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Thu, Jun 24, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/Blog/posts/firstpost/">Introduction To 1-D Array</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>One Dimensional Array Simplified Array: A data structure which stores homogenous data types in continuous memory allocation is known as an Array. It stored several related items using a single name. Different elements can be accessed using the index.
-Consider a cupboard in your local library. It has different sections for different genres of book. Each section can accommodate a specific number of books.
-Now consider the section of Mathematics wherein one would only find books on mathematics.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Thu, Jun 17, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
-        
-
-
-    </div>
 
         </div>
     </div>
