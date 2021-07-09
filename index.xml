@@ -72,5 +72,17 @@ Now consider the section of Mathematics wherein one would only find books on mat
       
     </item>
     
+    <item>
+      <title></title>
+      <link>https://kerinpithawala.github.io/Blog/posts/fourthpost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerinpithawala.github.io/Blog/posts/fourthpost/</guid>
+      
+        <description>Overview of Linked List Linked list as the name suggests is a list of elements grouped linearly. // A unit element in a linked list consists of the following components:
+Data Address of neighbour element/s We refer to this unit element as a node. Therefore, a linked list is a set of nodes. The last node in the linked list points to null, indicating that the linked list has ended.</description>
+      
+    </item>
+    
   </channel>
 </rss>
