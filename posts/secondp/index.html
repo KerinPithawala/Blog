@@ -56,7 +56,8 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Introduction to 2-D Array"/>
 <meta name="twitter:description" content="Overview of two dimensional array A two-dimensional array is an array of array. For example, consider a sample time table.
-Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.
+ Time Table
+  Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.
 The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this blog on 1D Array."/>
 
 
@@ -155,6 +156,12 @@ The advantages and disadvantages of a 2-dimensional array are the same as a 1-di
 
             <h1 id="overview-of-two-dimensional-array">Overview of two dimensional array</h1>
 <p>A two-dimensional array is an array of array. For example, consider a sample time table.</p>
+<figure><img src="https://i.imgur.com/9eAakkm.png"
+         alt="image"/><figcaption>
+            <p>Time Table</p>
+        </figcaption>
+</figure>
+
 <p>Here, the days are an array. Each day consists of an array within them. Thus it forms a 2-D array with 6 columns and 7 rows. The text entered in each box acts as an element.</p>
 <p>The advantages and disadvantages of a 2-dimensional array are the same as a 1-dimensional array as I mentioned in this <a href="https://kerinpithawala.github.io/Blog/posts/firstpost/">blog on 1D Array</a>.</p>
 <p>A major application of 2-dimensional array is a representation of matrices. Let us consider an array arr with 2 rows and 3 columns.</p>
@@ -165,26 +172,24 @@ The advantages and disadvantages of a 2-dimensional array are the same as a 1-di
 <li>Row major order-</li>
 </ol>
 <p>Here, elements of first rows are list first, followed by elements of the second row and so on.</p>
-<p>8</p>
-<p>5</p>
-<p>4</p>
-<p>2</p>
-<p>8</p>
-<p>3</p>
-<p>arr(0,0)                arr(0,1)                arr(0,2)                arr(1,0)                arr(1,1)                  arr(1,2)</p>
+<figure><img src="https://i.imgur.com/aVy2Jmx.png"
+         alt="image"/><figcaption>
+            <p>Row-major</p>
+        </figcaption>
+</figure>
+
 <ol start="2">
 <li>Column major order-</li>
 </ol>
 <p>Here, elements of first rows are list first, followed by elements of second row and so on.</p>
-<p>8</p>
-<p>2</p>
-<p>5</p>
-<p>8</p>
-<p>4</p>
-<p>3</p>
-<p>arr(0,0)                 arr(1,0)                 arr(1,1)                 arr(1,1)              arr(0,2)                arr(1,2)</p>
+<figure><img src="https://i.imgur.com/NRM5d7j.png"
+         alt="image"/><figcaption>
+            <p>Column-major</p>
+        </figcaption>
+</figure>
+
 <p>The computer stores the address of the first element which is known as the base address i.e. address of arr(0,0). The rest of the addresses are calculated by the base address.</p>
-<p>Let’s assume that an array arr has m number of rows and n number of columns. The size of an individual element is w. Now we want to find the address of element at i row and j column.</p>
+<p>Lets assume that an array arr has m number of rows and n number of columns. The size of an individual element is w. Now we want to find the address of element at i row and j column.</p>
 <p>If array is stored as row major,</p>
 <p>arr[i][j]=Base address +w[n(i-1)+(j-1)]</p>
 <p>If array is stored as column major,</p>
