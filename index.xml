@@ -6,7 +6,20 @@
     <description>Recent content on Kerin Pithawala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jul 2021 18:16:54 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 20:13:18 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Linked List</title>
+      <link>https://kerinpithawala.github.io/Blog/posts/fourthpost/</link>
+      <pubDate>Fri, 09 Jul 2021 20:13:18 +0530</pubDate>
+      
+      <guid>https://kerinpithawala.github.io/Blog/posts/fourthpost/</guid>
+      
+        <description>Linked list as the name suggests is a list of elements grouped linearly. // A unit element in a linked list consists of the following components:
+Data Address of neighbour element/s We refer to this unit element as a node. Therefore, a linked list is a set of nodes. The last node in the linked list points to null, indicating that the linked list has ended.
+Depending upon the number of nodes that are accessed directly, linked lists are further classified into:</description>
+      
+    </item>
+    
     <item>
       <title>Overview of 3 Dimensional Array</title>
       <link>https://kerinpithawala.github.io/Blog/posts/thirdpost/</link>
@@ -69,18 +82,6 @@ I am interested in software development and research.</description>
         <description>One Dimensional Array Simplified Array: A data structure which stores homogenous data types in continuous memory allocation is known as an Array. It stored several related items using a single name. Different elements can be accessed using the index.
 Consider a cupboard in your local library. It has different sections for different genres of book. Each section can accommodate a specific number of books.
 Now consider the section of Mathematics wherein one would only find books on mathematics.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kerinpithawala.github.io/Blog/posts/fourthpost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerinpithawala.github.io/Blog/posts/fourthpost/</guid>
-      
-        <description>Overview of Linked List Linked list as the name suggests is a list of elements grouped linearly. // A unit element in a linked list consists of the following components:
-Data Address of neighbour element/s We refer to this unit element as a node. Therefore, a linked list is a set of nodes. The last node in the linked list points to null, indicating that the linked list has ended.</description>
       
     </item>
     
