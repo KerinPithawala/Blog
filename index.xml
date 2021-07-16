@@ -6,7 +6,20 @@
     <description>Recent content on Kerin Pithawala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jul 2021 20:13:18 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 21:54:11 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Stack </title>
+      <link>https://kerinpithawala.github.io/Blog/posts/fifthpost/</link>
+      <pubDate>Fri, 16 Jul 2021 21:54:11 +0530</pubDate>
+      
+      <guid>https://kerinpithawala.github.io/Blog/posts/fifthpost/</guid>
+      
+        <description>A stack is a data structure which stores elements one above others. Consider a pile of coins. Each coin is a data element. Addition and removal of coins take place at one end. This place is called the top of the stack.
+ Image credits: PixelBay
+  A unique feature of this data structure is that we can use an array or linked list for its implementation. We are concerned about its functionality instead of it is implemented in code.</description>
+      
+    </item>
+    
     <item>
       <title>Introduction to Linked List</title>
       <link>https://kerinpithawala.github.io/Blog/posts/fourthpost/</link>
