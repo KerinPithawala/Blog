@@ -8,15 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Jul 2021 09:32:43 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sixthpost</title>
+      <title>Introduction of Queue</title>
       <link>https://kerinpithawala.github.io/Blog/posts/sixthpost/</link>
       <pubDate>Fri, 23 Jul 2021 09:32:43 +0530</pubDate>
       
       <guid>https://kerinpithawala.github.io/Blog/posts/sixthpost/</guid>
       
-        <description>Introduction of Queue A stack is a data structure which stores elements one after others.
+        <description>A queue is a data structure which stores elements one after others.
 A unique feature of this data structure is that we can use an array or linked list for its implementation. We are concerned about its functionality instead of it is implemented in code. Thus, the queue is an abstract data type.
-Consider a group of students waiting outside the professor&amp;rsquo;s cabin in line for project submission.</description>
+Consider a group of students waiting outside the professor&amp;rsquo;s cabin in line for project submission.
+ The queue increases when more people arrive.</description>
       
     </item>
     
