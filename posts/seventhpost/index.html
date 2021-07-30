@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en" data-theme=""><head>
-    <title> Kerin Pithawala | Posts </title>
+    <title> Kerin Pithawala | Introduction to Circular Queue </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.83.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -33,10 +33,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="/Blog/posts/">
+    <link rel="canonical" href="/Blog/posts/seventhpost/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/Blog/posts/index.xml" title="Kerin Pithawala's Blog" />
     
     
     
@@ -55,8 +54,11 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Blog for Tech and Research"/>
+<meta name="twitter:title" content="Introduction to Circular Queue"/>
+<meta name="twitter:description" content="Let&rsquo;s say another student wants to wait in the queue to get his/her assignment checked. There is space available on the bench, but the student cannot occupy it.
+ If the students shift to left, then they can make space the new student. However, this is very time-consuming.
+ So, logically the person would occupy the vacant seat.
+ But, will make sure that when the professor calls the early entrants will go first."/>
 
 
     
@@ -114,7 +116,7 @@
                    title="">Home</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/Blog/posts/"
                         
                    title="">Posts</a></li>
@@ -144,77 +146,74 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2021</div>
+            <div class="post-title">
+                <h3>Introduction to Circular Queue</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/seventhpost/" title="Introduction to Circular Queue">Introduction to Circular Queue</a>
-                                <div class="post-time"><span class="date"> Jul 30 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+            </div>
+
+            <p>Let&rsquo;s say another student wants to wait in the <a href="https://kerinpithawala.github.io/Blog/posts/sixthpost/">queue</a> to get his/her assignment checked. There is space available on the bench, but the student cannot occupy it.</p>
+<figure><img src="https://imgur.com/glCO0l1.png"
+         alt="image"/>
+</figure>
+
+<p>If the students shift to left, then they can make space the new student. However, this is very time-consuming.</p>
+<figure><img src="https://imgur.com/Z4kpxOB.png"
+         alt="image"/>
+</figure>
+
+<p>So, logically the person would occupy the vacant seat.</p>
+<figure><img src="https://imgur.com/CwCvLgj.png"
+         alt="image"/>
+</figure>
+
+<p>But, will make sure that when the professor calls the early entrants will go first.</p>
+<p>Assume a queue of length l. When the queue is empty, the number assigned to the front and rear is -1. In a circular queue, the front index comes right after the last index.</p>
+<h3 id="algorithm-for-enqueue">Algorithm for enqueue</h3>
+<ol>
+<li>The queue is overflow if front=0 and rear=l-1. End the program.</li>
+<li>There are two cases for insertion:</li>
+</ol>
+<ul>
+<li>There is space from the rear side. If rear&lt; l-1, then insert the element at queue[rear] and increment rear.</li>
+<li>There is space from front side.If rear=l-1 and front!=0, then set rear=0 and insert element at queue[rear].</li>
+</ul>
+<h3 id="algorithm-for-dequeue">Algorithm for dequeue</h3>
+<ol>
+<li>The queue is underflowing if rear=front=-1. End the program.</li>
+<li>Now there might be three scenarios.</li>
+</ol>
+<ul>
+<li>If there is only one element in the queue i.e. front=rear.
+Delete element and set front and rear to -1.</li>
+<li>Else if there are new elements and old elements have to be deleted.</li>
+</ul>
+<ol start="3">
+<li>Delete element and front=0.</li>
+</ol>
+<ul>
+<li>else delete element and increment front.</li>
+</ul>
+<h3 id="applications-of-the-circular-queue-are">Applications of the circular queue are:</h3>
+<ul>
+<li>It overcomes the space efficiency limitation of the queue.</li>
+<li>Used for CPU scheduling and process scheduling.</li>
+<li>Used in traffic management.</li>
+<li>Used in memory management.</li>
+</ul>
+</div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/sixthpost/" title="Introduction to Queue">Introduction to Queue</a>
-                                <div class="post-time"><span class="date"> Jul 23 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/fifthpost/" title="Introduction to Stack ">Introduction to Stack </a>
-                                <div class="post-time"><span class="date"> Jul 16 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/fourthpost/" title="Introduction to Linked List">Introduction to Linked List</a>
-                                <div class="post-time"><span class="date"> Jul 9 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/thirdpost/" title="Introduction to 3 Dimensional Array">Introduction to 3 Dimensional Array</a>
-                                <div class="post-time"><span class="date"> Jul 2 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/secondp/" title="Introduction to 2-D Array">Introduction to 2-D Array</a>
-                                <div class="post-time"><span class="date"> Jun 24 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/Blog/posts/firstpost/" title="Introduction to 1-D Array">Introduction to 1-D Array</a>
-                                <div class="post-time"><span class="date"> Jun 17 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>
