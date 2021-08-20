@@ -6,7 +6,19 @@
     <description>Recent content on Kerin Pithawala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Aug 2021 22:23:22 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Aug 2021 22:42:23 +0530</lastBuildDate><atom:link href="https://kerinpithawala.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Tree Data Structure</title>
+      <link>https://kerinpithawala.github.io/Blog/posts/tree1/</link>
+      <pubDate>Fri, 20 Aug 2021 22:42:23 +0530</pubDate>
+      
+      <guid>https://kerinpithawala.github.io/Blog/posts/tree1/</guid>
+      
+        <description>The tree is an abstract data structure which stores hierarchical data. For example, organisations have a hierarchical structure for employees. It is similar to the image given below.
+ Several sergeants have to report to their respective captain. Now captains report to colonel. This colonel takes order from the general and assigns them to sergeants. Each of these consists of several levels. The general is on level 0, Colonel A and Colonel V are on level 1, Captain A, B and C are on level 2 and so on.</description>
+      
+    </item>
+    
     <item>
       <title>Introduction to Priority Queue</title>
       <link>https://kerinpithawala.github.io/Blog/posts/priorityqueue/</link>
