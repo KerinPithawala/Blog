@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" data-theme=""><head>
+    <title> Kerin Pithawala | Introduction to Tree Data Structure </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.83.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Blog for Tech and Research">
+    
+    
+    
+    
+    <link rel="stylesheet"
+        href="/Blog/css/main.min.1d754eb77d35bbd30eecd86e3335550427b174c922b90c74e025aeb67de9cc6b.css"
+        integrity="sha256-HXVOt301u9MO7NhuMzVVBCexdMkiuQx04CWutn3pzGs="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    
+    <link rel="stylesheet"
+        href="/Blog/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+        integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="/Blog/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Blog/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="/Blog/posts/tree1/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="/Blog/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
+            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="/Blog/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js"
+                integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introduction to Tree Data Structure"/>
+<meta name="twitter:description" content="The tree is an abstract data structure which stores hierarchical data. For example, organisations have a hierarchical structure for employees. It is similar to the image given below.
+ Several sergeants have to report to their respective captain. Now captains report to colonel. This colonel takes order from the general and assigns them to sergeants. Each of these consists of several levels. The general is on level 0, Colonel A and Colonel V are on level 1, Captain A, B and C are on level 2 and so on."/>
+
+
+    
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="/Blog/images/sim.png" alt="profile picture">
+            <h3 title=""><a href="/"></a></h3>
+            <div class="description">
+                <p>Blog for Tech and Research</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/kerinpithawala" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="kerinpithawala7@example.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/KerinPithawala" rel="me" aria-label="Github">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy;  Kerin Pithawala 2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/Blog/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/Blog/posts/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/Blog/about/"
+                        
+                   title="">About</a></li>
+        
+            
+            <li><a 
+                   href="/Blog/contact/"
+                        
+                   title="">Contact</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Introduction to Tree Data Structure</h3>
+                
+            </div>
+
+            <p>The tree is an abstract data structure which stores hierarchical data. For example, organisations have a hierarchical structure for employees. It is similar to the image given below.</p>
+<figure><img src="https://imgur.com/MO2FlfV.png"
+         alt="image"/>
+</figure>
+
+<p>Several sergeants have to report to their respective captain. Now captains report to colonel. This colonel takes order from the general and assigns them to sergeants. Each of these consists of several levels. The general is on level 0, Colonel A and Colonel V are on level 1, Captain A, B and C are on level 2 and so on. Another terminology is height of the tree.</p>
+<p>The height of a tree is longest path from the root node to any leaf node of the tree.</p>
+<p>Height of leaf node n=Level of leaf n+1.</p>
+<p>Suppose we want to find the height of Private A.</p>
+<p>Height of private A= Level of Private A+1 =5</p>
+<p>In terms of computer programming, the general would be the root node of the tree. Colonel A and Colonel B are children of general. These two colonels are referred to as siblings. Further, colonel B has three children captain A, B and C. Since Colonel A does not have any further nodes, it would be referred to as a leaf node.</p>
+<p>Thus we can deduce that,</p>
+<p>The topmost node of the tree is the root node.
+Node A emerges from node B. Then we can say that A is the child of B and B is the parent node of A. Node B can have multiple sub-nodes.
+If node A does not have any children/sub-nodes then that node is called a leaf node.
+The line connecting nodes are called edges.
+The number of predecessors node A has is the degree of A.
+Level number of the root node is 0 and the level number of a child node=level number of parent node+1.
+Two nodes having the same parent nodes are sibling nodes.</p>
+<h2 id="advantages-of-the-tree-data-structure-are">Advantages of the tree data structure are:</h2>
+<ul>
+<li>Can describe the relationship between data elements.</li>
+<li>Efficient insertion.</li>
+</ul>
+<h2 id="disadvantages-of-the-tree-data-structure-are">Disadvantages of the tree data structure are:</h2>
+<ul>
+<li>Deletion of nodes other than leaf nodes is costly.</li>
+<li>More time and space complexity compared to <a href="https://kerinpithawala.github.io/Blog/posts/firstpost/">array</a>, <a href="https://kerinpithawala.github.io/Blog/posts/fourthpost/">linked list</a>, <a href="https://kerinpithawala.github.io/Blog/posts/fifthpost/">stack</a> and <a href="https://kerinpithawala.github.io/Blog/posts/sixthpost/">queue</a>.</li>
+</ul>
+<h2 id="applications-of-the-tree-data-structure-are">Applications of the tree data structure are:</h2>
+<ul>
+<li>Implements hash table, sets and maps data structure.</li>
+<li>This data structure is used in compiler construction and database design.</li>
+<li>Can store simple values( Example: Number value) as well as complex value(Example:record).</li>
+<li>Retrieval and information storage in symbol tables.</li>
+<li>A type of tree: Binary Tress has several applications of it&rsquo;s own.</li>
+</ul>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="/Blog/js/medium-zoom.min.83cb1dd5fea8d42d87d1e601a07faa73089ad0ef9ccfe5daf6041289ebcc4e46.js"
+        integrity="sha256-g8sd1f6o1C2H0eYBoH&#43;qcwia0O&#43;cz&#43;Xa9gQSievMTkY="
+        crossorigin="anonymous"></script></body>
+
+</html>
